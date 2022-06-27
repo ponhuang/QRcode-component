@@ -1,0 +1,72 @@
+/* COLOR */
+
+ hsl(0, 0%, 100%);
+ hsl(212, 45%, 89%);
+ hsl(220, 15%, 55%);
+ hsl(218, 44%, 22%);
+
+/* BASE */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-size: 1.5rem;
+  background-color:hsl(212, 45%, 89%);
+
+}
+
+.container {
+  background-color: white;
+  width: 38rem;
+  margin: 5rem auto;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.img{
+  display: block;
+  width: 35rem;
+  height: 35rem;
+  border-radius: 12px;
+  background-image: url("images/image-qr-code.png");
+  background-size: cover;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.content{
+  text-align: center;
+  width: 31rem;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 1.3;
+  color:  hsl(218, 44%, 22%);
+}
+
+.text {
+  color:  hsl(220, 15%, 55%);
+  line-height: 1.5;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
